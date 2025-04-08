@@ -3,7 +3,7 @@
 
 *Initialement créer par AMI SAADA Massil Achour (@Fortishissime) et REN Jonathan (@jona3341). Version remasterisée sous l'accord direct des auteurs*
 
-Ce projet est une **version remasterisée** d’un ancien travail, repensé et optimisé afin de **réduire son impact environnemental**, tout en conservant ses fonctionnalités principales.
+Ce projet est la reprise d'un projet non abouti, repensé et optimisé afin de **réduire son impact environnemental**, tout en conservant ses fonctionnalités principales.
 
 Il offre une expérience fluide permettant aux utilisateurs d’interagir avec des données de paris et des statistiques pour des jeux comme **League of Legends** et **Valorant**.
 
