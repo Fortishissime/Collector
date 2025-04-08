@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1089490,
+    "name": "Upper bracket semifinal 1: ULT vs DRGN",
+    "date": "2024-12-20T13:20:00Z",
+    "teams": [
+      {
+        "name": "The Ultimates",
+        "logo": "https://cdn.pandascore.co/images/team/image/131339/the_ultimates_2020_allmode.png",
+        "tag": "ULT"
+      },
+      {
+        "name": "Dragons Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/134511/800px_dragons_esports_2024_allmode.png",
+        "tag": "DRGN"
+      }
+    ]
+  },
+  {
+    "id": 1089491,
+    "name": "Upper bracket semifinal 2: QE vs OXR",
+    "date": "2024-12-20T16:00:00Z",
+    "teams": [
+      {
+        "name": "Qadsiah Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/136040/284px_al_qadsiah_2024_full_allmode.png",
+        "tag": "QE"
+      },
+      {
+        "name": "Onyx Ravens",
+        "logo": "https://cdn.pandascore.co/images/team/image/132543/138px_onyx_ravens_2023_allmode.png",
+        "tag": "OXR"
+      }
+    ]
+  },
+  {
+    "id": 1079839,
+    "name": "Upper bracket final: RDL vs BABO",
+    "date": "2024-12-21T07:00:00Z",
+    "teams": [
+      {
+        "name": "Riddle",
+        "logo": "https://cdn.pandascore.co/images/team/image/134334/190px_riddle_2021_allmode.png",
+        "tag": "RDL"
+      },
+      {
+        "name": "BABO",
+        "logo": "https://cdn.pandascore.co/images/team/image/135965/285px_babo_allmode.png",
+        "tag": "BABO"
+      }
+    ]
+  },
+  {
+    "id": 1079845,
+    "name": "Upper bracket final: NOEZ vs BCS",
+    "date": "2024-12-21T10:00:00Z",
+    "teams": [
+      {
+        "name": "NOEZ FOXX",
+        "logo": "https://cdn.pandascore.co/images/team/image/135964/285px_noez_foxx_lightmode.png",
+        "tag": "NOEZ"
+      },
+      {
+        "name": "BC SWELL",
+        "logo": "https://cdn-icons-png.flaticon.com/512/5726/5726678.png",
+        "tag": "BCS"
+      }
+    ]
+  },
+  {
+    "id": 1089161,
+    "name": "Upper bracket Upper bracket Round 1 match 3: BBL vs GX",
+    "date": "2025-01-15T17:00:00Z",
+    "teams": [
+      {
+        "name": "BBL Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/128577/600px_bbl_esports_2022_full_lightmode.png",
+        "tag": "BBL"
+      },
+      {
+        "name": "GIANTX",
+        "logo": "https://cdn.pandascore.co/images/team/image/134423/giant_x_logo.svg.png",
+        "tag": "GX"
+      }
+    ]
+  },
+  {
+    "id": 1089160,
+    "name": "Upper bracket Upper bracket Round 1 match 2: KC vs NAVI",
+    "date": "2025-01-15T20:00:00Z",
+    "teams": [
+      {
+        "name": "Karmine Corp",
+        "logo": "https://cdn.pandascore.co/images/team/image/130922/600px_karmine_corp_lightmode_full.png",
+        "tag": "KC"
+      },
+      {
+        "name": "Natus Vincere",
+        "logo": "https://cdn.pandascore.co/images/team/image/129355/57px_natus_vincere_2021_lightmode.png",
+        "tag": "NAVI"
+      }
+    ]
+  },
+  {
+    "id": 1089159,
+    "name": "Upper bracket Upper bracket Round 1 match 1: TL vs KOI",
+    "date": "2025-01-16T17:00:00Z",
+    "teams": [
+      {
+        "name": "Team Liquid",
+        "logo": "https://cdn.pandascore.co/images/team/image/128541/team_liquidlogo_square.png",
+        "tag": "TL"
+      },
+      {
+        "name": "KOI",
+        "logo": "https://cdn.pandascore.co/images/team/image/135651/600px_koi_2024_allmode.png",
+        "tag": "KOI"
+      }
+    ]
+  },
+  {
+    "id": 1089162,
+    "name": "Upper bracket Round 1 match 4: APEKS vs GM",
+    "date": "2025-01-16T20:00:00Z",
+    "teams": [
+      {
+        "name": "Apeks",
+        "logo": "https://cdn.pandascore.co/images/team/image/132560/1200px_apeks_2021_full_lightmode.png",
+        "tag": "APEKS"
+      },
+      {
+        "name": "Gentle Mates",
+        "logo": "https://cdn.pandascore.co/images/team/image/133115/gentle_mates_allmode.png",
+        "tag": "GM"
+      }
+    ]
+  },
+  {
+    "id": 1088536,
+    "name": "Upper bracket round 1 match 1: EG vs LOUD",
+    "date": "2025-01-16T22:00:00Z",
+    "teams": [
+      {
+        "name": "Evil Geniuses",
+        "logo": "https://cdn.pandascore.co/images/team/image/129181/110px_evil_geniuses_2020_lightmode.png",
+        "tag": "EG"
+      },
+      {
+        "name": "LOUD",
+        "logo": "https://cdn.pandascore.co/images/team/image/130338/900px_loud_allmode.png",
+        "tag": "LOUD"
+      }
+    ]
+  },
+  {
+    "id": 1088537,
+    "name": "Upper bracket round 1 match 2: MIBR vs 100T",
+    "date": "2025-01-17T01:00:00Z",
+    "teams": [
+      {
+        "name": "MIBR",
+        "logo": "https://cdn.pandascore.co/images/team/image/130190/600px_mibr_2018_lightmode.png",
+        "tag": "MIBR"
+      },
+      {
+        "name": "100 Thieves",
+        "logo": "https://cdn.pandascore.co/images/team/image/128605/187px_100_thieves_teamcard.png",
+        "tag": "100T"
+      }
+    ]
+  },
+  {
+    "id": 1088539,
+    "name": "Upper bracket round 1 match 4: 2GAME vs FUR",
+    "date": "2025-01-17T22:00:00Z",
+    "teams": [
+      {
+        "name": "2GAME Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/134470/285px_2_game_esports_allmode.png",
+        "tag": "2GAME"
+      },
+      {
+        "name": "FURIA Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/128477/600px_furia_esports.png",
+        "tag": "FUR"
+      }
+    ]
+  },
+  {
+    "id": 1088538,
+    "name": "Upper bracket round 1 match 3: NRG vs C9",
+    "date": "2025-01-18T01:00:00Z",
+    "teams": [
+      {
+        "name": "NRG",
+        "logo": "https://cdn.pandascore.co/images/team/image/128471/nrg_2020.png",
+        "tag": "NRG"
+      },
+      {
+        "name": "Cloud9",
+        "logo": "https://cdn.pandascore.co/images/team/image/128819/600px_c9.png",
+        "tag": "C9"
+      }
+    ]
+  }
+]

@@ -1,0 +1,733 @@
+[
+  {
+    "id": 1088923,
+    "name": "FPX vs EDG",
+    "date": "2024-12-17T08:00:00Z",
+    "teams": [
+      {
+        "name": "FunPlus Phoenix",
+        "logo": "https://cdn.pandascore.co/images/team/image/1568/fun_plus_phoenixlogo_square.png",
+        "tag": "FPX"
+      },
+      {
+        "name": "EDward Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/405/edward-gaming-52bsed1a.png",
+        "tag": "EDG"
+      }
+    ]
+  },
+  {
+    "id": 1088924,
+    "name": "LGD vs BLGJ",
+    "date": "2024-12-17T09:00:00Z",
+    "teams": [
+      {
+        "name": "LGD Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/408/lgd_gaminglogo_square.png",
+        "tag": "LGD"
+      },
+      {
+        "name": "Bilibili Gaming Junior",
+        "logo": "https://cdn.pandascore.co/images/team/image/125984/bilibili_gaming_juniorlogo_square.png",
+        "tag": "BLGJ"
+      }
+    ]
+  },
+  {
+    "id": 1088925,
+    "name": "FPX vs BLGJ",
+    "date": "2024-12-17T10:00:00Z",
+    "teams": [
+      {
+        "name": "FunPlus Phoenix",
+        "logo": "https://cdn.pandascore.co/images/team/image/1568/fun_plus_phoenixlogo_square.png",
+        "tag": "FPX"
+      },
+      {
+        "name": "Bilibili Gaming Junior",
+        "logo": "https://cdn.pandascore.co/images/team/image/125984/bilibili_gaming_juniorlogo_square.png",
+        "tag": "BLGJ"
+      }
+    ]
+  },
+  {
+    "id": 1088926,
+    "name": "EDG vs LGD",
+    "date": "2024-12-17T11:00:00Z",
+    "teams": [
+      {
+        "name": "EDward Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/405/edward-gaming-52bsed1a.png",
+        "tag": "EDG"
+      },
+      {
+        "name": "LGD Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/408/lgd_gaminglogo_square.png",
+        "tag": "LGD"
+      }
+    ]
+  },
+  {
+    "id": 1088927,
+    "name": "LGD vs FPX",
+    "date": "2024-12-17T12:00:00Z",
+    "teams": [
+      {
+        "name": "LGD Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/408/lgd_gaminglogo_square.png",
+        "tag": "LGD"
+      },
+      {
+        "name": "FunPlus Phoenix",
+        "logo": "https://cdn.pandascore.co/images/team/image/1568/fun_plus_phoenixlogo_square.png",
+        "tag": "FPX"
+      }
+    ]
+  },
+  {
+    "id": 1088928,
+    "name": "EDG vs BLGJ",
+    "date": "2024-12-17T13:00:00Z",
+    "teams": [
+      {
+        "name": "EDward Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/405/edward-gaming-52bsed1a.png",
+        "tag": "EDG"
+      },
+      {
+        "name": "Bilibili Gaming Junior",
+        "logo": "https://cdn.pandascore.co/images/team/image/125984/bilibili_gaming_juniorlogo_square.png",
+        "tag": "BLGJ"
+      }
+    ]
+  },
+  {
+    "id": 1088941,
+    "name": "RNG vs NIP",
+    "date": "2024-12-18T08:00:00Z",
+    "teams": [
+      {
+        "name": "Royal Never Give Up",
+        "logo": "https://cdn.pandascore.co/images/team/image/74/royal-never-give-up-cyacqft1.png",
+        "tag": "RNG"
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "logo": "https://cdn.pandascore.co/images/team/image/641/ninjas_in_pyjamaslogo_profile.png",
+        "tag": "NIP"
+      }
+    ]
+  },
+  {
+    "id": 1088942,
+    "name": "LGDY vs IG",
+    "date": "2024-12-18T09:00:00Z",
+    "teams": [
+      {
+        "name": "LGD Gaming Young Team",
+        "logo": "https://cdn.pandascore.co/images/team/image/126749/220px_lgd_gaminglogo_square.png",
+        "tag": "LGDY"
+      },
+      {
+        "name": "Invictus Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/411/invictus_gaminglogo_square.png",
+        "tag": "IG"
+      }
+    ]
+  },
+  {
+    "id": 1088943,
+    "name": "RNG vs LGDY",
+    "date": "2024-12-18T10:00:00Z",
+    "teams": [
+      {
+        "name": "Royal Never Give Up",
+        "logo": "https://cdn.pandascore.co/images/team/image/74/royal-never-give-up-cyacqft1.png",
+        "tag": "RNG"
+      },
+      {
+        "name": "LGD Gaming Young Team",
+        "logo": "https://cdn.pandascore.co/images/team/image/126749/220px_lgd_gaminglogo_square.png",
+        "tag": "LGDY"
+      }
+    ]
+  },
+  {
+    "id": 1088944,
+    "name": "IG vs NIP",
+    "date": "2024-12-18T11:00:00Z",
+    "teams": [
+      {
+        "name": "Invictus Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/411/invictus_gaminglogo_square.png",
+        "tag": "IG"
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "logo": "https://cdn.pandascore.co/images/team/image/641/ninjas_in_pyjamaslogo_profile.png",
+        "tag": "NIP"
+      }
+    ]
+  },
+  {
+    "id": 1088945,
+    "name": "IG vs RNG",
+    "date": "2024-12-18T12:00:00Z",
+    "teams": [
+      {
+        "name": "Invictus Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/411/invictus_gaminglogo_square.png",
+        "tag": "IG"
+      },
+      {
+        "name": "Royal Never Give Up",
+        "logo": "https://cdn.pandascore.co/images/team/image/74/royal-never-give-up-cyacqft1.png",
+        "tag": "RNG"
+      }
+    ]
+  },
+  {
+    "id": 1088946,
+    "name": "LGDY vs NIP",
+    "date": "2024-12-18T13:00:00Z",
+    "teams": [
+      {
+        "name": "LGD Gaming Young Team",
+        "logo": "https://cdn.pandascore.co/images/team/image/126749/220px_lgd_gaminglogo_square.png",
+        "tag": "LGDY"
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "logo": "https://cdn.pandascore.co/images/team/image/641/ninjas_in_pyjamaslogo_profile.png",
+        "tag": "NIP"
+      }
+    ]
+  },
+  {
+    "id": 1088929,
+    "name": "OMG vs UP",
+    "date": "2024-12-19T08:00:00Z",
+    "teams": [
+      {
+        "name": "Oh My God",
+        "logo": "https://cdn.pandascore.co/images/team/image/404/fl_utn_xc.png",
+        "tag": "OMG"
+      },
+      {
+        "name": "Ultra Prime",
+        "logo": "https://cdn.pandascore.co/images/team/image/129065/ultra_primelogo_square.png",
+        "tag": "UP"
+      }
+    ]
+  },
+  {
+    "id": 1088930,
+    "name": "SG vs AL",
+    "date": "2024-12-19T09:00:00Z",
+    "teams": [
+      {
+        "name": "Super Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/135897/legend_cup_super_gaming_allmode.png",
+        "tag": "SG"
+      },
+      {
+        "name": "Anyone's Legend",
+        "logo": "https://cdn.pandascore.co/images/team/image/129971/anyone_27s_legendlogo_profile.png",
+        "tag": "AL"
+      }
+    ]
+  },
+  {
+    "id": 1088931,
+    "name": "OMG vs SG",
+    "date": "2024-12-19T10:00:00Z",
+    "teams": [
+      {
+        "name": "Oh My God",
+        "logo": "https://cdn.pandascore.co/images/team/image/404/fl_utn_xc.png",
+        "tag": "OMG"
+      },
+      {
+        "name": "Super Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/135897/legend_cup_super_gaming_allmode.png",
+        "tag": "SG"
+      }
+    ]
+  },
+  {
+    "id": 1088932,
+    "name": "AL vs UP",
+    "date": "2024-12-19T11:00:00Z",
+    "teams": [
+      {
+        "name": "Anyone's Legend",
+        "logo": "https://cdn.pandascore.co/images/team/image/129971/anyone_27s_legendlogo_profile.png",
+        "tag": "AL"
+      },
+      {
+        "name": "Ultra Prime",
+        "logo": "https://cdn.pandascore.co/images/team/image/129065/ultra_primelogo_square.png",
+        "tag": "UP"
+      }
+    ]
+  },
+  {
+    "id": 1088933,
+    "name": "AL vs OMG",
+    "date": "2024-12-19T12:00:00Z",
+    "teams": [
+      {
+        "name": "Anyone's Legend",
+        "logo": "https://cdn.pandascore.co/images/team/image/129971/anyone_27s_legendlogo_profile.png",
+        "tag": "AL"
+      },
+      {
+        "name": "Oh My God",
+        "logo": "https://cdn.pandascore.co/images/team/image/404/fl_utn_xc.png",
+        "tag": "OMG"
+      }
+    ]
+  },
+  {
+    "id": 1088934,
+    "name": "UP vs SG",
+    "date": "2024-12-19T13:00:00Z",
+    "teams": [
+      {
+        "name": "Ultra Prime",
+        "logo": "https://cdn.pandascore.co/images/team/image/129065/ultra_primelogo_square.png",
+        "tag": "UP"
+      },
+      {
+        "name": "Super Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/135897/legend_cup_super_gaming_allmode.png",
+        "tag": "SG"
+      }
+    ]
+  },
+  {
+    "id": 1088488,
+    "name": "TH vs RGE",
+    "date": "2025-01-18T17:00:00Z",
+    "teams": [
+      {
+        "name": "Team Heretics",
+        "logo": "https://cdn.pandascore.co/images/team/image/130105/team_hereticslogo_square.png",
+        "tag": "TH"
+      },
+      {
+        "name": "Rogue",
+        "logo": "https://cdn.pandascore.co/images/team/image/3983/rogue__28_european_team_29logo_square.png",
+        "tag": "RGE"
+      }
+    ]
+  },
+  {
+    "id": 1088489,
+    "name": "VIT vs BDS",
+    "date": "2025-01-18T17:45:00Z",
+    "teams": [
+      {
+        "name": "Team Vitality",
+        "logo": "https://cdn.pandascore.co/images/team/image/115/team_vitalitylogo_square.png",
+        "tag": "VIT"
+      },
+      {
+        "name": "BDS",
+        "logo": "https://cdn.pandascore.co/images/team/image/128267/team_bd_slogo_square.png",
+        "tag": "BDS"
+      }
+    ]
+  },
+  {
+    "id": 1088490,
+    "name": "GX vs SK",
+    "date": "2025-01-18T18:30:00Z",
+    "teams": [
+      {
+        "name": "GIANTX",
+        "logo": "https://cdn.pandascore.co/images/team/image/134068/giant_x_logo.svg.png",
+        "tag": "GX"
+      },
+      {
+        "name": "SK Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/395/600px-SK_Gaminglogo_square.png",
+        "tag": "SK"
+      }
+    ]
+  },
+  {
+    "id": 1088491,
+    "name": "MKOI vs FNC",
+    "date": "2025-01-18T19:15:00Z",
+    "teams": [
+      {
+        "name": "Movistar KOI",
+        "logo": "https://cdn.pandascore.co/images/team/image/126536/movistar_ko_ilogo_square.png",
+        "tag": "MKOI"
+      },
+      {
+        "name": "Fnatic",
+        "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+        "tag": "FNC"
+      }
+    ]
+  },
+  {
+    "id": 1088492,
+    "name": "KC vs G2",
+    "date": "2025-01-18T20:00:00Z",
+    "teams": [
+      {
+        "name": "Karmine Corp",
+        "logo": "https://cdn.pandascore.co/images/team/image/134078/karmine_corplogo_square.png",
+        "tag": "KC"
+      },
+      {
+        "name": "G2 Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/88/g2-esports.png",
+        "tag": "G2"
+      }
+    ]
+  },
+  {
+    "id": 1088493,
+    "name": "TH vs SK",
+    "date": "2025-01-19T17:00:00Z",
+    "teams": [
+      {
+        "name": "Team Heretics",
+        "logo": "https://cdn.pandascore.co/images/team/image/130105/team_hereticslogo_square.png",
+        "tag": "TH"
+      },
+      {
+        "name": "SK Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/395/600px-SK_Gaminglogo_square.png",
+        "tag": "SK"
+      }
+    ]
+  },
+  {
+    "id": 1088494,
+    "name": "RGE vs GX",
+    "date": "2025-01-19T17:45:00Z",
+    "teams": [
+      {
+        "name": "Rogue",
+        "logo": "https://cdn.pandascore.co/images/team/image/3983/rogue__28_european_team_29logo_square.png",
+        "tag": "RGE"
+      },
+      {
+        "name": "GIANTX",
+        "logo": "https://cdn.pandascore.co/images/team/image/134068/giant_x_logo.svg.png",
+        "tag": "GX"
+      }
+    ]
+  },
+  {
+    "id": 1088495,
+    "name": "MKOI vs KC",
+    "date": "2025-01-19T18:30:00Z",
+    "teams": [
+      {
+        "name": "Movistar KOI",
+        "logo": "https://cdn.pandascore.co/images/team/image/126536/movistar_ko_ilogo_square.png",
+        "tag": "MKOI"
+      },
+      {
+        "name": "Karmine Corp",
+        "logo": "https://cdn.pandascore.co/images/team/image/134078/karmine_corplogo_square.png",
+        "tag": "KC"
+      }
+    ]
+  },
+  {
+    "id": 1088496,
+    "name": "G2 vs BDS",
+    "date": "2025-01-19T19:15:00Z",
+    "teams": [
+      {
+        "name": "G2 Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/88/g2-esports.png",
+        "tag": "G2"
+      },
+      {
+        "name": "BDS",
+        "logo": "https://cdn.pandascore.co/images/team/image/128267/team_bd_slogo_square.png",
+        "tag": "BDS"
+      }
+    ]
+  },
+  {
+    "id": 1088497,
+    "name": "FNC vs VIT",
+    "date": "2025-01-19T20:00:00Z",
+    "teams": [
+      {
+        "name": "Fnatic",
+        "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+        "tag": "FNC"
+      },
+      {
+        "name": "Team Vitality",
+        "logo": "https://cdn.pandascore.co/images/team/image/115/team_vitalitylogo_square.png",
+        "tag": "VIT"
+      }
+    ]
+  },
+  {
+    "id": 1088498,
+    "name": "BDS vs RGE",
+    "date": "2025-01-20T17:00:00Z",
+    "teams": [
+      {
+        "name": "BDS",
+        "logo": "https://cdn.pandascore.co/images/team/image/128267/team_bd_slogo_square.png",
+        "tag": "BDS"
+      },
+      {
+        "name": "Rogue",
+        "logo": "https://cdn.pandascore.co/images/team/image/3983/rogue__28_european_team_29logo_square.png",
+        "tag": "RGE"
+      }
+    ]
+  },
+  {
+    "id": 1088499,
+    "name": "TH vs FNC",
+    "date": "2025-01-20T17:45:00Z",
+    "teams": [
+      {
+        "name": "Team Heretics",
+        "logo": "https://cdn.pandascore.co/images/team/image/130105/team_hereticslogo_square.png",
+        "tag": "TH"
+      },
+      {
+        "name": "Fnatic",
+        "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+        "tag": "FNC"
+      }
+    ]
+  },
+  {
+    "id": 1088500,
+    "name": "MKOI vs VIT",
+    "date": "2025-01-20T18:30:00Z",
+    "teams": [
+      {
+        "name": "Movistar KOI",
+        "logo": "https://cdn.pandascore.co/images/team/image/126536/movistar_ko_ilogo_square.png",
+        "tag": "MKOI"
+      },
+      {
+        "name": "Team Vitality",
+        "logo": "https://cdn.pandascore.co/images/team/image/115/team_vitalitylogo_square.png",
+        "tag": "VIT"
+      }
+    ]
+  },
+  {
+    "id": 1088501,
+    "name": "G2 vs SK",
+    "date": "2025-01-20T19:15:00Z",
+    "teams": [
+      {
+        "name": "G2 Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/88/g2-esports.png",
+        "tag": "G2"
+      },
+      {
+        "name": "SK Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/395/600px-SK_Gaminglogo_square.png",
+        "tag": "SK"
+      }
+    ]
+  },
+  {
+    "id": 1088502,
+    "name": "GX vs KC",
+    "date": "2025-01-20T20:00:00Z",
+    "teams": [
+      {
+        "name": "GIANTX",
+        "logo": "https://cdn.pandascore.co/images/team/image/134068/giant_x_logo.svg.png",
+        "tag": "GX"
+      },
+      {
+        "name": "Karmine Corp",
+        "logo": "https://cdn.pandascore.co/images/team/image/134078/karmine_corplogo_square.png",
+        "tag": "KC"
+      }
+    ]
+  },
+  {
+    "id": 1088505,
+    "name": "RGE vs FNC",
+    "date": "2025-01-25T17:00:00Z",
+    "teams": [
+      {
+        "name": "Rogue",
+        "logo": "https://cdn.pandascore.co/images/team/image/3983/rogue__28_european_team_29logo_square.png",
+        "tag": "RGE"
+      },
+      {
+        "name": "Fnatic",
+        "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+        "tag": "FNC"
+      }
+    ]
+  },
+  {
+    "id": 1088506,
+    "name": "BDS vs TH",
+    "date": "2025-01-25T17:45:00Z",
+    "teams": [
+      {
+        "name": "BDS",
+        "logo": "https://cdn.pandascore.co/images/team/image/128267/team_bd_slogo_square.png",
+        "tag": "BDS"
+      },
+      {
+        "name": "Team Heretics",
+        "logo": "https://cdn.pandascore.co/images/team/image/130105/team_hereticslogo_square.png",
+        "tag": "TH"
+      }
+    ]
+  },
+  {
+    "id": 1088507,
+    "name": "GX vs MKOI",
+    "date": "2025-01-25T18:30:00Z",
+    "teams": [
+      {
+        "name": "GIANTX",
+        "logo": "https://cdn.pandascore.co/images/team/image/134068/giant_x_logo.svg.png",
+        "tag": "GX"
+      },
+      {
+        "name": "Movistar KOI",
+        "logo": "https://cdn.pandascore.co/images/team/image/126536/movistar_ko_ilogo_square.png",
+        "tag": "MKOI"
+      }
+    ]
+  },
+  {
+    "id": 1088508,
+    "name": "VIT vs G2",
+    "date": "2025-01-25T19:15:00Z",
+    "teams": [
+      {
+        "name": "Team Vitality",
+        "logo": "https://cdn.pandascore.co/images/team/image/115/team_vitalitylogo_square.png",
+        "tag": "VIT"
+      },
+      {
+        "name": "G2 Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/88/g2-esports.png",
+        "tag": "G2"
+      }
+    ]
+  },
+  {
+    "id": 1088509,
+    "name": "KC vs SK",
+    "date": "2025-01-25T20:00:00Z",
+    "teams": [
+      {
+        "name": "Karmine Corp",
+        "logo": "https://cdn.pandascore.co/images/team/image/134078/karmine_corplogo_square.png",
+        "tag": "KC"
+      },
+      {
+        "name": "SK Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/395/600px-SK_Gaminglogo_square.png",
+        "tag": "SK"
+      }
+    ]
+  },
+  {
+    "id": 1088510,
+    "name": "GX vs TH",
+    "date": "2025-01-26T17:00:00Z",
+    "teams": [
+      {
+        "name": "GIANTX",
+        "logo": "https://cdn.pandascore.co/images/team/image/134068/giant_x_logo.svg.png",
+        "tag": "GX"
+      },
+      {
+        "name": "Team Heretics",
+        "logo": "https://cdn.pandascore.co/images/team/image/130105/team_hereticslogo_square.png",
+        "tag": "TH"
+      }
+    ]
+  },
+  {
+    "id": 1088511,
+    "name": "SK vs VIT",
+    "date": "2025-01-26T17:45:00Z",
+    "teams": [
+      {
+        "name": "SK Gaming",
+        "logo": "https://cdn.pandascore.co/images/team/image/395/600px-SK_Gaminglogo_square.png",
+        "tag": "SK"
+      },
+      {
+        "name": "Team Vitality",
+        "logo": "https://cdn.pandascore.co/images/team/image/115/team_vitalitylogo_square.png",
+        "tag": "VIT"
+      }
+    ]
+  },
+  {
+    "id": 1088512,
+    "name": "FNC vs G2",
+    "date": "2025-01-26T18:30:00Z",
+    "teams": [
+      {
+        "name": "Fnatic",
+        "logo": "https://cdn.pandascore.co/images/team/image/394/220px_fnaticlogo_square.png",
+        "tag": "FNC"
+      },
+      {
+        "name": "G2 Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/88/g2-esports.png",
+        "tag": "G2"
+      }
+    ]
+  },
+  {
+    "id": 1088513,
+    "name": "KC vs RGE",
+    "date": "2025-01-26T19:15:00Z",
+    "teams": [
+      {
+        "name": "Karmine Corp",
+        "logo": "https://cdn.pandascore.co/images/team/image/134078/karmine_corplogo_square.png",
+        "tag": "KC"
+      },
+      {
+        "name": "Rogue",
+        "logo": "https://cdn.pandascore.co/images/team/image/3983/rogue__28_european_team_29logo_square.png",
+        "tag": "RGE"
+      }
+    ]
+  },
+  {
+    "id": 1088514,
+    "name": "BDS vs MKOI",
+    "date": "2025-01-26T20:00:00Z",
+    "teams": [
+      {
+        "name": "BDS",
+        "logo": "https://cdn.pandascore.co/images/team/image/128267/team_bd_slogo_square.png",
+        "tag": "BDS"
+      },
+      {
+        "name": "Movistar KOI",
+        "logo": "https://cdn.pandascore.co/images/team/image/126536/movistar_ko_ilogo_square.png",
+        "tag": "MKOI"
+      }
+    ]
+  }
+]

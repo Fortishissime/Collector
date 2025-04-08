@@ -1,0 +1,46 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL") 
+}
+
+model Bet {
+  bet_id            Int      @id @default(autoincrement())
+  nickname          String
+  matchId           Int
+  teamName          String
+  betAmount         Float
+  potentialWinnings Float
+  date              DateTime @default(now())
+  status            String   @default("Pending")
+
+  Account           Account  @relation(fields: [nickname], references: [nickname], onDelete: Cascade)
+}
+
+model Account {
+  account_id       Int      @id @default(autoincrement())
+  nickname         String   @unique
+  password         String
+  mail             String
+  birth_date       DateTime
+  avatar           String?
+  delta            Float
+  solde            Float
+  last_daily_gift  DateTime?
+  displayName      String   @default("")
+
+  Bets             Bet[]
+  BetDeltas        BetDelta[]
+}
+
+model BetDelta {
+  delta_id   Int      @id @default(autoincrement())
+  account_id Int
+  date       DateTime
+  solde      Float
+
+  Account    Account  @relation(fields: [account_id], references: [account_id])
+}

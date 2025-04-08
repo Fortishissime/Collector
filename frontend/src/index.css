@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in-out {
+    0% { opacity: 0; }
+    20%, 80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.text-green-400 {
+    color: #10b981; /* Green 400 */
+  }
+  
+  .scale-110 {
+    transform: scale(1.1); /* Scale */
+  }
+  
+  .transition-transform {
+    transition: transform 0.3s ease, color 0.3s ease; /* Transition */
+  }
+
+.no-select {
+  user-select: none;
+}
+
+.translate-x-full {
+  transform: translateX(120%);
+}
+
+.hidden-placeholder {
+  transform: translateX(100%); 
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+              opacity 0.5s ease;
+}
+
+.show-placeholder {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55),
+              opacity 0.5s ease;
+}

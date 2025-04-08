@@ -1,0 +1,251 @@
+/* NO LONGER IN USE. KEEP IT HELP IMPLEMENTATION */ 
+
+
+
+
+import React, { useState, useEffect } from 'react';
+import { Avatar, List, ListItem, ListItemIcon, ListItemText, Menu, MenuItem } from '@mui/material';
+import { Home, SportsEsports, Leaderboard, Settings, MonetizationOn } from '@mui/icons-material';
+import { useNavigate, Outlet, useLocation } from 'react-router-dom';
+import logo from '../assets/collector.png';
+import Notification from './dashboard/Notification';
+
+const DashboardPage = () => {
+  const navigate = useNavigate();
+  const location = useLocation();  // Utilisation de useLocation pour récupérer la route actuelle
+  const [selectedPage, setSelectedPage] = useState('home');
+  const [coins, setCoins] = useState(100.0);
+  const [user, setUser] = useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [notification, setNotification] = useState(null); // Pour les notifications
+
+  const menuItems = [
+    { id: 'home', label: 'Home', icon: <Home /> },
+    { id: 'bets', label: 'My Bets', icon: <SportsEsports /> },
+    { id: 'leaderboard', label: 'Leaderboard', icon: <Leaderboard /> },
+    { id: 'settings', label: 'Settings', icon: <Settings /> },
+  ];
+
+  const handleMenuClick = (pageId) => {
+    setSelectedPage(pageId);
+    navigate(`/dashboard/${pageId}`);
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem('authToken');
+    localStorage.removeItem('user');
+    navigate('/signin');
+  };
+
+  const handleAvatarClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleMenuClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleDailyGift = async () => {
+    try {
+      const response = await fetch(`/api/users/${user.nickname}/daily-gift`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${localStorage.getItem('authToken')}`,
+        },
+      });
+  
+      const data = await response.json();
+  
+      if (!response.ok) {
+        setNotification({ message: data.error || 'Failed to claim daily gift', type: 'error' });
+        return;
+      }
+  
+      setNotification({ message: '💰 Daily gift: +50 credits', type: 'success' });
+  
+      // Mise à jour des pièces avec une animation
+      const updatedCoins = data.user.solde;
+      updateUserCoins(updatedCoins);
+  
+      const increment = (updatedCoins - coins) / 20; // Animation en 20 étapes
+      let currentCoins = coins;
+  
+      const interval = setInterval(() => {
+        currentCoins += increment;
+        if (currentCoins >= updatedCoins) {
+          clearInterval(interval);
+          currentCoins = updatedCoins;
+        }
+        setCoins(currentCoins);
+      }, 50);
+    } catch (error) {
+      setNotification({ message: 'Error claiming daily gift', type: 'error' });
+    }
+  };
+  
+  
+
+  useEffect(() => {
+    document.title = "Dashboard - Home";
+  
+    // Récupération des données utilisateur depuis le localStorage
+    const token = localStorage.getItem('authToken');
+    const userInfo = JSON.parse(localStorage.getItem('user'));
+  
+    if (!token || !userInfo) {
+      navigate('/signin');
+    } else {
+      // Synchroniser les données utilisateur dans l'état
+      setUser(userInfo);
+      setCoins(userInfo.solde || 0); // Utilise `solde` si disponible, sinon initialise à 0
+      
+    }
+  }, [navigate]);
+  
+  // Synchronisation du solde à chaque mise à jour de `user`
+  useEffect(() => {
+    if (user?.solde !== undefined) {
+      setCoins(user.solde); // Assure que le solde dans `user` est synchronisé avec `coins`
+    }
+  }, [user]);
+  
+  // Fonction pour mettre à jour le solde utilisateur
+  const updateUserCoins = (newCoins) => {
+    // Mise à jour locale
+    setUser((prevUser) => {
+      const updatedUser = { ...prevUser, solde: newCoins };
+      localStorage.setItem('user', JSON.stringify(updatedUser));
+      return updatedUser;
+    });
+  };  
+
+
+  return (
+    <div className="flex min-h-screen bg-gray-900 text-gray-200">
+      {/* Sidebar */}
+      <aside className="bg-gray-800 w-60 p-4 flex flex-col justify-between">
+        <div>
+          <div className="flex items-center mb-6">
+            <img src={logo} alt="Collector Logo" className="w-8 h-8 mr-2" draggable="false" />
+            <h2 className="text-white text-3xl font-bold font-sans">Collector</h2>
+          </div>
+          <List>
+            {menuItems.map((item) => (
+              <ListItem
+                key={item.id}
+                selected={selectedPage === item.id}
+                onClick={() => handleMenuClick(item.id)}
+                className={`hover:bg-gray-700 rounded-md ${selectedPage === item.id ? 'bg-gray-700' : ''}`}
+              >
+                <ListItemIcon className="text-gray-300">{item.icon}</ListItemIcon>
+                <ListItemText
+                  primary={item.label}
+                  primaryTypographyProps={{ className: 'text-gray-300' }}
+                />
+              </ListItem>
+            ))}
+          </List>
+        </div>
+        <div className="flex flex-col space-y-4">
+          <button
+            onClick={handleDailyGift}
+            className="w-full py-2 text-white border border-white rounded-full transition-colors duration-200 hover:bg-white hover:text-black"
+          >
+            Daily Gift
+          </button>
+          <button
+            onClick={handleLogout}
+            className="w-full py-2 text-red-500 border border-red-500 rounded-full transition-colors duration-200 hover:bg-red-500 hover:text-white"
+          >
+            Log out
+          </button>
+        </div>
+      </aside>
+
+      {/* Main Content */}
+      <div className="flex-grow flex flex-col">
+        <header className="flex justify-between items-center px-6 py-4">
+        <div></div>
+          <div className="flex items-center space-x-6">
+            <div className="flex items-center bg-gray-800 pl-3 pr-4 py-2 rounded-full">
+              <MonetizationOn className="text-yellow-500 mr-1.5 text-lg" />
+              <span className="text-gray-300 font-mono text-sm font-medium select-none">
+                {coins.toFixed(2)}
+              </span>
+            </div>
+            <Avatar
+            src={user?.avatar || 'https://cdn-icons-png.flaticon.com/512/15735/15735339.png'}
+            alt="User Avatar"
+            className="cursor-pointer hover:scale-105 transition-transform duration-200"
+            onClick={handleAvatarClick}
+          />
+          <Menu
+            anchorEl={anchorEl}
+            open={Boolean(anchorEl)}
+            onClose={handleMenuClose}
+            PaperProps={{
+              style: {
+                backgroundColor: '#1f2937',
+                color: '#f3f4f6',
+                borderRadius: '8px',
+                boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.5)',
+                minWidth: '250px',
+                marginTop: '5px',
+              },
+            }}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right',
+            }}
+            transformOrigin={{
+              vertical: 'top',
+              horizontal: 'right',
+            }}
+          >
+            {/* Afficher le nom d'affichage et le pseudo */}
+            <div className="px-4 py-2">
+              <div className="text-lg font-semibold text-white">{user?.displayName}</div>
+              <div className="text-sm text-gray-400">@{user?.nickname}</div>
+            </div>
+
+            {/* Menu items */}
+            <MenuItem
+              onClick={() => {
+                handleMenuClose();
+                navigate('/dashboard');
+              }}
+            >
+              Dashboard
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
+                handleMenuClose();
+                navigate('/settings');
+              }}
+            >
+              Settings
+            </MenuItem>
+            <MenuItem onClick={handleLogout}>Logout</MenuItem>
+          </Menu>
+
+          </div>
+        </header>
+        <main className="p-6 flex-grow">
+          <Outlet />
+        </main>
+      </div>
+
+      {/* Notifications */}
+      {notification && (
+        <Notification
+          message={notification.message}
+          type={notification.type}
+          onClose={() => setNotification(null)}
+        />
+      )}
+    </div>
+  );
+};
+
+export default DashboardPage;
